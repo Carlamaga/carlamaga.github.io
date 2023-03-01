@@ -1,0 +1,190 @@
+*
+{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background:floralwhite;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0.1);
+}
+.container .left_Side
+{
+    position: relative;
+    background: rgb(146, 48, 146);
+    padding: 40px;
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profileText .imgBx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2
+{
+color: floralwhite;
+font-size: 1.5em;
+margin-top: 20px;
+text-transform: uppercase;
+text-align: center;
+font-weight: 600;
+line-height: 1.4em;
+
+}
+.profileText h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.Contacto
+{
+    padding-top: 40px;
+}
+.titulo
+{
+    color: floralwhite;
+    text-transform: uppercase;
+    font-weight:600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.Contacto ul
+{
+    position: relative;
+}
+.Contacto ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.Contacto ul li .icon
+{
+    display:  inline-block;
+    width:30 px;
+    font-size: 18px;
+    color: whitesmoke; 
+}
+.Contacto ul li span
+{
+color: whitesmoke;
+font-weight: 300;
+}
+.Educación li
+{
+    margin-bottom: 15px;
+}
+.Educación h5
+{
+    color: floralwhite;
+    font-weight: 500px;
+}
+.Educación h4:nth-child(2)
+{
+    color: black;
+    font-weight: 500;
+}
+
+.Educación h4
+{
+    color: floralwhite;
+    font-weight: 300;
+}
+.Idiomas .percent
+{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: black;
+    display: block;
+    margin-top: 5px;
+}
+.Idiomas .percent div
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rosybrown;
+}
+
+.container .right_Side
+{
+    position: relative;
+    background: rgb(197, 188, 197);
+    padding: 40px;
+}
+.Sobre.mi 
+{
+    margin-bottom: 0;
+}
+.Sobre.mi :last-child
+{
+margin-bottom: 0;
+}
+.Titulo2
+{
+    color: purple;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color:black;
+}
+.Sobre.mi .box .años_en_la_compañia
+{
+    min-width: 150px;
+}
+.Sobre.mi .box .años_en_la_compañia h5
+{
+    text-transform: uppercase;
+    color:rgb(146, 48, 146);
+    font-weight: 600;
+}
+.Sobre.mi .box .texto h4
+{
+text-transform:  uppercase;
+color: rgb(201, 32, 216); 
+font-size: 16px;
+}
